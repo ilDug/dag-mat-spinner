@@ -11,7 +11,7 @@ To get started, install the package with npm or Yarn:
 
 or 
 
-    yarn install  @ildug/dag-mat-spinner
+    yarn add  @ildug/dag-mat-spinner
 
 
 ## Usage
