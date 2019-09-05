@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
+    loading : boolean;
+    spin(){
+        this.loading = !this.loading;
+        setTimeout(() => {
+            this.loading = false;
+        }, 250000);
+    }
 }

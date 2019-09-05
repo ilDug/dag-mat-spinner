@@ -1,9 +1,13 @@
 {
-    "name": "dag-mat-spinner",
-    "version": "0.0.0",
+    "name": "@ildug/dag-mat-spinner",
+    "version": "0.1.0",
     "author": "ilDug",
     "description": "full screen spinner based on Angular Material",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ilDug/dag-mat-spinner.git"
+    },
     "peerDependencies": {
         "@angular/common": "^8.2.4",
         "@angular/core": "^8.2.4",

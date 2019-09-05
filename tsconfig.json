@@ -24,6 +24,12 @@
       ],
       "dag-mat-spinner/*": [
         "dist/dag-mat-spinner/*"
+      ],
+      "my-lib": [
+        "dist/my-lib"
+      ],
+      "my-lib/*": [
+        "dist/my-lib/*"
       ]
     }
   },
