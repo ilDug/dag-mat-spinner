@@ -1,9 +1,7 @@
 # dag-mat-spinner
 
 A full screen spinner based on Angular Material
-This package is intended to be use in Angular projects as NgModule. See [demo](http://dagtech.it).
-
-Updated to Angular 11.
+This package is intended to be use in Angular projects as NgModule. See [demo](http://dagtech.it)
 
 ## Installation 
 

@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { DagSpinnerDirective } from './dag-spinner.directive';
+import { DagSpinnerComponent } from './dag-spinner/dag-spinner.component';
+import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { CommonModule } from '@angular/common';
-import { DagSpinnerComponent } from './dag-spinner/dag-spinner.component';
+
+
 
 @NgModule({
-    declarations: [DagSpinnerDirective, DagSpinnerComponent,],
+    declarations: [DagSpinnerDirective, DagSpinnerComponent],
     imports: [
+        CommonModule,
         BrowserAnimationsModule,
         MatProgressSpinnerModule,
-        CommonModule
     ],
-    exports: [DagSpinnerDirective, DagSpinnerComponent]
-})
-export class DagMatSpinnerModule { }
-
+    exports: [DagSpinnerDirective, DagSpinnerComponent],
+    entryComponents: [DagSpinnerComponent]
+}) export class DagMatSpinnerModule { }

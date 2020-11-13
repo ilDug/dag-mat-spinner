@@ -7,34 +7,19 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "module": "es2020",
     "lib": [
       "es2018",
       "dom"
     ],
     "paths": {
-      "dag-mat-spinner": [
-        "dist/dag-mat-spinner"
-      ],
-      "dag-mat-spinner/*": [
-        "dist/dag-mat-spinner/*"
-      ],
-      "my-lib": [
-        "dist/my-lib"
-      ],
-      "my-lib/*": [
-        "dist/my-lib/*"
+        "dag-mat-spinner": [
+            "projects/dag-mat-spinner/src/public-api.ts",
+            "projects/dag-mat-spinner"
       ]
     }
-  },
-  "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
   }
 }

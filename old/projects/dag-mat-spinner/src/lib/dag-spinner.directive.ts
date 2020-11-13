@@ -1,10 +1,11 @@
-import { ComponentFactory, ComponentFactoryResolver, ComponentRef, Directive, Input, ViewContainerRef } from '@angular/core';
+import { Directive, OnChanges, Input, ViewContainerRef, ComponentFactoryResolver, ComponentFactory, ComponentRef } from '@angular/core';
 import { DagSpinnerComponent } from './dag-spinner/dag-spinner.component';
 
 @Directive({
-    selector: '[dagSpinner]'
+  selector: '[dagSpinner]'
 })
-export class DagSpinnerDirective {
+export class DagSpinnerDirective implements OnChanges {
+
     @Input() dagSpinner: boolean = false;
 
     // constructor(private vcr: ViewContainerRef, private cfr: ComponentFactoryResolver, private tpr: TemplateRef<any>) { }
@@ -42,5 +43,6 @@ export class DagSpinnerDirective {
             //    this.vcr.createEmbeddedView(this.tpr)
         }
     }
+
 
 }
