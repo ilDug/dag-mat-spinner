@@ -1,6 +1,6 @@
 {
   "name": "@ildug/dag-mat-spinner",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": "ilDug",
   "description": "full screen spinner based on Angular Material",
   "license": "MIT",
@@ -9,8 +9,8 @@
     "url": "https://github.com/ilDug/dag-mat-spinner.git"
   },
   "peerDependencies": {
-    "@angular/common": "^11.0.0",
-    "@angular/core": "^11.0.0"
+    "@angular/common": "^12.0.0",
+    "@angular/core": "^12.0.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
